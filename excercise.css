@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+}
+
+.main-box {
+  background-color: #1a1c28;
+  width: 900px;
+  padding: 50px;
+}
+
+.top-row {
+  display: flex;
+  gap: 20px;
+}
+.red-box {
+  background-color: red;
+  width: 500px;
+  height: 250px;
+}
+.orange-box {
+  background-color: orange;
+  width: 300px;
+  height: 250px;
+}
+
+.bottom-row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.teal-box {
+  width: 400px;
+  height: 250px;
+  background-color: teal;
+  margin-right: 12px;  
+}
+
+.white-box1 {
+  width: 400px;
+  height: 118px;
+  background-color: white;
+  margin-bottom: 12px;
+}
